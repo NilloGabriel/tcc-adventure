@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tcc-adventure"
+version = "0.1.0"
+description = ""
+authors = [
+    "Gabriel D'Nillo", 
+    "Davi Hugo", 
+    "Vinicius Mortari"
+]
+readme = "README.md"
+license = "GPL-3.0"
+packages = [{include = "tcc_adventure"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
