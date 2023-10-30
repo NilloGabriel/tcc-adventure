@@ -26,7 +26,7 @@ Este é um projeto para demonstrar a geração procedural de narrativas em jogos
 ## Rodando o projeto
 Execute o jogo com o seguinte comando:
 ```bash
-
+poetry run start
 ```
 
 Siga as instruções apresentadas no jogo para interagir e explorar a narrativa gerada pelo LLM.

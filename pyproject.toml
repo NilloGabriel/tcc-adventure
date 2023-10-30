@@ -11,9 +11,11 @@ readme = "README.md"
 license = "GPL-3.0"
 packages = [{include = "tcc_adventure"}]
 
+[tool.poetry.scripts]
+start = "tcc_adventure.game:main"
+
 [tool.poetry.dependencies]
 python = "^3.12"
-
 
 [build-system]
 requires = ["poetry-core"]
