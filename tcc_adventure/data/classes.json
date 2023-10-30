@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "name": "Bardo",
+            "description": "Os bardos são contadores de histórias, poetas e músicos que usam suas habilidades para entreter, inspirar e enganar. Eles são versáteis e podem desempenhar uma variedade de papéis em um grupo de aventureiros."
+        },
+        {
+            "name": "Clérigo",
+            "description": "Os clérigos são servos de uma divindade ou poder superior. Eles usam sua fé para curar os feridos, proteger os inocentes e derrotar os inimigos. Eles são geralmente sábios e compassivos, e são uma fonte de inspiração para seus companheiros."
+        },
+        {
+            "name": "Druida",
+            "description": "Os druidas são guardiões da natureza. Eles se conectam com o mundo natural e usam seus poderes para curar a terra, proteger a vida selvagem e defender o equilíbrio natural. Eles são geralmente sábios e perspicazes, e têm um profundo respeito pela natureza."
+        },
+        {
+            "name": "Feiticeiro",
+            "description": "Os feiticeiros são nascidos com um dom para a magia. Eles usam sua magia para lançar feitiços poderosos, mas não precisam de treinamento ou estudo para fazê-lo. Eles são geralmente imprevisíveis e excêntricos, e são frequentemente atraídos para o perigo."
+        },
+        {
+            "name": "Guerreiro",
+            "description": "Os guerreiros são especialistas em combate. Eles são treinados para usar armas e armaduras, e são capazes de enfrentar qualquer desafio com força e determinação. Eles são geralmente leais e confiáveis, e são uma força poderosa em qualquer campo de batalha."
+        },
+        {
+            "name": "Ladino",
+            "description": "Os ladinos são especialistas em furtividade e trapaça. Eles são treinados para entrar em lugares secretos, roubar objetos valiosos e evitar serem detectados. Eles são geralmente astutos e perspicazes, e são capazes de se safar de qualquer situação."
+        },
+        {
+            "name": "Monge",
+            "description": "Os monges são especialistas em combate desarmado. Eles usam suas habilidades de artes marciais para derrotar seus inimigos com velocidade e precisão. Eles são geralmente calmos e concentrados, e são capazes de superar qualquer desafio com força de vontade."
+        },
+        {
+            "name": "Paladino",
+            "description": "Os paladinos são servos da justiça e da ordem. Eles usam sua força e bravura para proteger os inocentes e defender o que é certo. Eles são geralmente justos e imparciais, e são uma força poderosa no combate."
+        },
+        {
+            "name": "Ranger",
+            "description": "Os rangers são especialistas em sobrevivência e combate. Eles são treinados para viver na floresta e rastrear seus inimigos. Eles são geralmente independentes e autossuficientes, e são capazes de sobreviver em qualquer ambiente."
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "abilities": {
+        "Bardo": {
+            "Anão": [
+                "Inspiração Anã",
+                "Canto da Resistência"
+            ],
+            "Elfo": [
+                "Melodia Élfica",
+                "Harpa Encantadora"
+            ],
+            "Halfling": [
+                "Canção dos Pés-Leves",
+                "Ritmo dos Festeiros"
+            ],
+            "Humano": [
+                "Harmonia Versátil",
+                "Seresteiro dos Humanos"
+            ],
+            "Dragonborn": [
+                "Canto do Dragão",
+                "Poder Draconiano"
+            ],
+            "Gnome": [
+                "Música das Engrenagens",
+                "Sinfonia Gnomish"
+            ],
+            "Half-Elf": [
+                "Duetos Élficos",
+                "Versatilidade Half-Elf"
+            ],
+            "Half-Orc": [
+                "Harpa Brutal",
+                "Ritmo Primal"
+            ],
+            "Tiefling": [
+                "Canção Infernal",
+                "Encanto das Sombras"
+            ]
+        },
+        "Clérigo": {
+            "Anão": [
+                "Cura Anã",
+                "Piedade dos Anciãos"
+            ],
+            "Elfo": [
+                "Bênção Élfica",
+                "Comunhão com a Natureza"
+            ],
+            "Halfling": [
+                "Cura dos Pés-Leves",
+                "Proteção dos Ladrões"
+            ],
+            "Humano": [
+                "Cura Universal",
+                "Devoção Humana"
+            ],
+            "Dragonborn": [
+                "Bênção Draconiana",
+                "Poder dos Dragões"
+            ],
+            "Gnome": [
+                "Magia Divina dos Gnomes",
+                "Benção das Engrenagens"
+            ],
+            "Half-Elf": [
+                "Cura Élfica da Harmonia",
+                "Virtude Half-Elf"
+            ],
+            "Half-Orc": [
+                "Cura Bruta",
+                "Proteção dos Caçadores Half-Orc"
+            ],
+            "Tiefling": [
+                "Magia Profana",
+                "Maldição Infernal"
+            ]
+        },
+        "Druida": {
+            "Anão": [
+                "Conexão com as Montanhas",
+                "Transformação de Rochas"
+            ],
+            "Elfo": [
+                "Ligação com as Árvores",
+                "Forma de Lobo Élfico"
+            ],
+            "Halfling": [
+                "Comunhão com a Natureza dos Pés-Leves",
+                "Transformação em Esquilo"
+            ],
+            "Humano": [
+                "Conexão Universal",
+                "Forma de Coruja dos Humanos"
+            ],
+            "Dragonborn": [
+                "Comunhão com os Dragões",
+                "Transformação de Dragão"
+            ],
+            "Gnome": [
+                "Ligação com as Engrenagens",
+                "Forma de Guaxinim dos Gnomes"
+            ],
+            "Half-Elf": [
+                "Ligação Élfica com a Natureza",
+                "Transformação em Pássaro"
+            ],
+            "Half-Orc": [
+                "Comunhão com a Selva Brutal",
+                "Transformação em Urso"
+            ],
+            "Tiefling": [
+                "Ligação Infernal",
+                "Forma de Sombra Infernal"
+            ]
+        },
+        "Feiticeiro": {
+            "Anão": [
+                "Feitiçaria Anã",
+                "Resistência às Chamas Anãs"
+            ],
+            "Elfo": [
+                "Feitiçaria Élfica",
+                "Visão Noturna Élfica"
+            ],
+            "Halfling": [
+                "Feitiçaria dos Pés-Leves",
+                "Sorte dos Halflings"
+            ],
+            "Humano": [
+                "Feitiçaria Universal",
+                "Força de Vontade Humana"
+            ],
+            "Dragonborn": [
+                "Feitiçaria Draconiana",
+                "Sopro Draconiano"
+            ],
+            "Gnome": [
+                "Feitiçaria das Engrenagens",
+                "Invenções dos Gnomes"
+            ],
+            "Half-Elf": [
+                "Feitiçaria Élfica da Dualidade",
+                "Versatilidade Half-Elf"
+            ],
+            "Half-Orc": [
+                "Feitiçaria Brutal",
+                "Resiliência dos Half-Orcs"
+            ],
+            "Tiefling": [
+                "Feitiçaria Infernal",
+                "Chama Profana"
+            ]
+        },
+        "Guerreiro": {
+            "Anão": [
+                "Investida Anã",
+                "Resiliência Montanhosa"
+            ],
+            "Elfo": [
+                "Precisão Élfica",
+                "Golpe Élfico Rápido"
+            ],
+            "Halfling": [
+                "Agilidade dos Pés-Leves",
+                "Golpe dos Festeiros"
+            ],
+            "Humano": [
+                "Versatilidade Guerreira",
+                "Coragem dos Humanos"
+            ],
+            "Dragonborn": [
+                "Força Draconiana",
+                "Sopro de Guerreiro Dragonborn"
+            ],
+            "Gnome": [
+                "Táticas Engenhosas",
+                "Inteligência dos Gnomes"
+            ],
+            "Half-Elf": [
+                "Destreza Élfica",
+                "Adaptação Half-Elf"
+            ],
+            "Half-Orc": [
+                "Fúria Brutal",
+                "Resistência dos Half-Orcs"
+            ],
+            "Tiefling": [
+                "Golpes Infernais",
+                "Resistência Profana"
+            ]
+        },
+        "Ladino": {
+            "Anão": [
+                "Furtividade Anã",
+                "Golpe de Sorte Anão"
+            ],
+            "Elfo": [
+                "Agilidade Élfica",
+                "Visão Noturna Élfica"
+            ],
+            "Halfling": [
+                "Destreza dos Pés-Leves",
+                "Sorte dos Ladrões"
+            ],
+            "Humano": [
+                "Furtividade Universal",
+                "Astúcia dos Humanos"
+            ],
+            "Dragonborn": [
+                "Furtividade Draconiana",
+                "Sopro do Ladino Dragonborn"
+            ],
+            "Gnome": [
+                "Truques dos Gnomes",
+                "Invenções dos Ladrões Gnomish"
+            ],
+            "Half-Elf": [
+                "Habilidade Élfica da Dualidade",
+                "Versatilidade Half-Elf"
+            ],
+            "Half-Orc": [
+                "Agilidade Brutal",
+                "Resiliência dos Half-Orcs"
+            ],
+            "Tiefling": [
+                "Golpes Infernais",
+                "Engano Profano"
+            ]
+        },
+        "Monge": {
+            "Anão": [
+                "Disciplina Anã",
+                "Foco de Pedra Anã"
+            ],
+            "Elfo": [
+                "Agilidade Élfica",
+                "Paz Interior Élfica"
+            ],
+            "Halfling": [
+                "Habilidade dos Pés-Leves",
+                "Reflexos dos Halflings"
+            ],
+            "Humano": [
+                "Disciplina Universal",
+                "Determinação dos Humanos"
+            ],
+            "Dragonborn": [
+                "Disciplina Draconiana",
+                "Foco de Dragão"
+            ],
+            "Gnome": [
+                "Mente dos Gnomes",
+                "Mestre das Engrenagens Gnomish"
+            ],
+            "Half-Elf": [
+                "Agilidade Élfica da Harmonia",
+                "Adaptação Half-Elf"
+            ],
+            "Half-Orc": [
+                "Foco Brutal",
+                "Resiliência dos Half-Orcs"
+            ],
+            "Tiefling": [
+                "Agilidade Infernal",
+                "Determinação Profana"
+            ]
+        },
+        "Paladino": {
+            "Anão": [
+                "Justiça Anã",
+                "Resistência aos Votos Anãos"
+            ],
+            "Elfo": [
+                "Devoção Élfica",
+                "Luz Élfica"
+            ],
+            "Halfling": [
+                "Proteção dos Pés-Leves",
+                "Bênção dos Ladrões"
+            ],
+            "Humano": [
+                "Devoção Universal",
+                "Força Divina dos Humanos"
+            ],
+            "Dragonborn": [
+                "Juramento Draconiano",
+                "Resistência Divina Dragonborn"
+            ],
+            "Gnome": [
+                "Bênção dos Gnomes",
+                "Sabedoria das Engrenagens Gnomish"
+            ],
+            "Half-Elf": [
+                "Devoção Élfica da Harmonia",
+                "Versatilidade Half-Elf"
+            ],
+            "Half-Orc": [
+                "Fé Brutal",
+                "Resistência dos Caçadores Half-Orc"
+            ],
+            "Tiefling": [
+                "Juramento Infernal",
+                "Resistência Profana Tiefling"
+            ]
+        },
+        "Ranger": {
+            "Anão": [
+                "Rastreamento Anão",
+                "Atirador Preciso Anão"
+            ],
+            "Elfo": [
+                "Rastreamento Élfico",
+                "Tiro Rápido Élfico"
+            ],
+            "Halfling": [
+                "Rastreamento dos Pés-Leves",
+                "Atirador de Precisão dos Halflings"
+            ],
+            "Humano": [
+                "Rastreamento Universal",
+                "Flechas Infalíveis dos Humanos"
+            ],
+            "Dragonborn": [
+                "Rastreamento Draconiano",
+                "Precisão de Caçador Dragonborn"
+            ],
+            "Gnome": [
+                "Táticas dos Gnomes",
+                "Precisão Engenhosa dos Gnomes"
+            ],
+            "Half-Elf": [
+                "Rastreamento Élfico da Harmonia",
+                "Tiro Duplo Half-Elf"
+            ],
+            "Half-Orc": [
+                "Rastreamento Brutal",
+                "Precisão de Caçador dos Half-Orcs"
+            ],
+            "Tiefling": [
+                "Rastreamento Infernal",
+                "Precisão Profana Tiefling"
+            ]
+        }
+    }
+}

@@ -1,0 +1,508 @@
+{
+    "equipment": {
+        "Bardo": {
+            "Anão": {
+                "weapons": [
+                    "Alaúde Anão",
+                    "Flauta de Pedra Anã"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Alaúde Élfico",
+                    "Flauta da Floresta"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Alaúde Pequeno",
+                    "Gaita dos Pés-Leves"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Alaúde Versátil",
+                    "Flauta Polivalente"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Alaúde do Dragão",
+                    "Flauta da Chama"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Alaúde Mecânico",
+                    "Flauta das Engrenagens"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Alaúde Harmonioso",
+                    "Flauta dos Dois Mundos"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Alaúde Guerreiro",
+                    "Flauta de Resistência"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Alaúde Infernal",
+                    "Flauta Ardente"
+                ]
+            }
+        },
+        "Clérigo": {
+            "Anão": {
+                "weapons": [
+                    "Martelo de Clérigo Anão",
+                    "Cajado Sagrado Anão"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Cajado Élfico da Luz",
+                    "Flail Élfico Divino"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Cajado Pequeno de Cura",
+                    "Machado Sagrado dos Pés-Leves"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Cajado de Cura Universal",
+                    "Martelo de Justiça Humano"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Cajado do Dragão Sagrado",
+                    "Espada Celestial Dragonborn"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Cajado das Engrenagens Divinas",
+                    "Machado Gnomish Abençoado"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Cajado da Harmonia Élfica",
+                    "Espada Sagrada Half-Elf"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Cajado Bruto dos Deuses",
+                    "Martelo Orc Abençoado"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Cajado Infernal Profano",
+                    "Foice Diabólica Tiefling"
+                ]
+            }
+        },
+        "Druida": {
+            "Anão": {
+                "weapons": [
+                    "Bastão de Madeira Anão",
+                    "Cajado da Terra Anã"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Cajado Élfico da Natureza",
+                    "Flauta de Encantamento Élfico"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Flauta dos Bosques",
+                    "Cajado de Curandeiro dos Pés-Leves"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Cajado da Vida Universal",
+                    "Flauta da Serenidade Humano"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Cajado do Dragão Verde",
+                    "Lança Draconiana"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Bastão das Engrenagens Naturais",
+                    "Cajado de Transformação Gnomish"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Cajado Élfico da Floresta",
+                    "Flauta da Harmonia Half-Elf"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Cajado Bruto da Selva",
+                    "Lança Primal Half-Orc"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Cajado Infernal da Corrupção",
+                    "Lâmina Corrompida Tiefling"
+                ]
+            }
+        },
+        "Feiticeiro": {
+            "Anão": {
+                "weapons": [
+                    "Orbe Arcano Anão",
+                    "Cajado de Cristal Anão"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Varinha Élfica do Vento",
+                    "Cajado de Ébano Élfico"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Varinha dos Pequenos Feitiços",
+                    "Cajado do Sortilégio dos Pés-Leves"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Cajado do Arcano Universal",
+                    "Orbe da Magia Humano"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Varinha do Dragão",
+                    "Cajado da Chama Dragonborn"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Varinha Mecânica",
+                    "Cajado de Invenções Gnomish"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Varinha Élfica da Ilusão",
+                    "Cajado da Transformação Half-Elf"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Cajado Bruto dos Feitiços",
+                    "Orbe de Resistência Half-Orc"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Varinha Infernal da Magia Profana",
+                    "Cajado do Caos Tiefling"
+                ]
+            }
+        },
+        "Guerreiro": {
+            "Anão": {
+                "weapons": [
+                    "Machado Anão",
+                    "Martelo de Guerra Anão"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Espada Élfica",
+                    "Lança Élfica"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Espada Curta dos Pés-Leves",
+                    "Lança dos Ladrões"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Espada Longa",
+                    "Escudo de Ferro"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Lança Draconiana",
+                    "Martelo Draconiano"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Machado Gnomish Engenheiro",
+                    "Escudo Mágico dos Gnomes"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Espada Longa Élfica",
+                    "Espada Curta dos Humanos"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Grande Machado dos Half-Orcs",
+                    "Lança Brutal dos Half-Orcs"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Lança Infernal",
+                    "Espada das Sombras Tiefling"
+                ]
+            }
+        },
+        "Ladino": {
+            "Anão": {
+                "weapons": [
+                    "Adaga Anã",
+                    "Besta de Mão Anã"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Adaga Élfica",
+                    "Arco Curto Élfico"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Adaga dos Pés-Leves",
+                    "Besta Leve dos Halflings"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Adaga Versátil",
+                    "Besta de Mão dos Humanos"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Adaga Draconiana",
+                    "Besta Pesada dos Dragonborn"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Adaga Mecânica dos Gnomes",
+                    "Besta Leve dos Gnomes"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Adaga Élfica da Agilidade",
+                    "Arco Longo Élfico"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Adaga dos Espreitadores",
+                    "Besta Pesada dos Half-Orcs"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Adaga Infernal",
+                    "Besta das Sombras Tiefling"
+                ]
+            }
+        },
+        "Monge": {
+            "Anão": {
+                "weapons": [
+                    "Luvas de Luta Anãs",
+                    "Nunchaku Anão"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Katars Élficos",
+                    "Cajado Leve Élfico"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Sapatos de Combate dos Pés-Leves",
+                    "Tonfa Pequena dos Halflings"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Manoplas de Treinamento",
+                    "Bastão de Treinamento dos Humanos"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Garra Draconiana",
+                    "Bastão de Guerra dos Dragonborn"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Luvas Encantadas dos Gnomes",
+                    "Cajado Ilusório Gnomish"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Katars Élficos",
+                    "Nunchaku Élfico"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Manoplas de Combate dos Half-Orcs",
+                    "Bastão dos Lutadores Half-Orc"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Garra Infernal",
+                    "Cajado de Sombras Tiefling"
+                ]
+            }
+        },
+        "Paladino": {
+            "Anão": {
+                "weapons": [
+                    "Espada Abençoada Anã",
+                    "Escudo Sagrado Anão"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Espada da Luz Élfica",
+                    "Escudo dos Anciãos Élficos"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Espada Curta Abençoada dos Pés-Leves",
+                    "Escudo Leve dos Halflings"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Espada Longa Sagrada",
+                    "Escudo de Paladino dos Humanos"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Espada Draconiana de Justiça",
+                    "Escudo de Escamas de Dragão"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Espada das Virtudes dos Gnomes",
+                    "Escudo Gnomish Encantado"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Espada Élfica da Retidão",
+                    "Escudo da Compaixão Half-Elf"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Espada Brutal dos Half-Orcs",
+                    "Escudo dos Campeões Half-Orc"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Espada Infernal da Redenção",
+                    "Escudo do Julgamento Tiefling"
+                ]
+            }
+        },
+        "Ranger": {
+            "Anão": {
+                "weapons": [
+                    "Arco de Caça Anão",
+                    "Besta Anã de Precisão"
+                ]
+            },
+            "Elfo": {
+                "weapons": [
+                    "Arco Élfico da Floresta",
+                    "Faca de Arremesso Élfica"
+                ]
+            },
+            "Halfling": {
+                "weapons": [
+                    "Besta dos Pés-Leves",
+                    "Arco Pequeno dos Halflings"
+                ]
+            },
+            "Humano": {
+                "weapons": [
+                    "Arco Composto dos Caçadores",
+                    "Faca de Caça dos Humanos"
+                ]
+            },
+            "Dragonborn": {
+                "weapons": [
+                    "Arco do Dragão Caçador",
+                    "Besta Pesada Draconiana"
+                ]
+            },
+            "Gnome": {
+                "weapons": [
+                    "Arco das Engrenagens dos Gnomes",
+                    "Besta Leve Gnomish"
+                ]
+            },
+            "Half-Elf": {
+                "weapons": [
+                    "Arco Élfico da Caça",
+                    "Besta Leve Half-Elf"
+                ]
+            },
+            "Half-Orc": {
+                "weapons": [
+                    "Arco Brutal dos Caçadores Half-Orc",
+                    "Besta dos Predadores Half-Orc"
+                ]
+            },
+            "Tiefling": {
+                "weapons": [
+                    "Arco Infernal da Caça",
+                    "Besta das Sombras Tiefling"
+                ]
+            }
+        }
+    }
+}

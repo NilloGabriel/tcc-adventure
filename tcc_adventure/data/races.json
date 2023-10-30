@@ -1,0 +1,40 @@
+{
+    "races": [
+        {
+            "name": "Anão",
+            "description": "Os anões são uma raça robusta e resistente, conhecida por sua força, coragem e devoção à família. Eles são geralmente teimosos e obstinados, e são difíceis de levar para longe de suas crenças."
+        },
+        {
+            "name": "Elfo",
+            "description": "Os elfos são uma raça graciosa e ágil, conhecida por sua inteligência, beleza e amor pela natureza. Eles são geralmente sofisticados e artísticos, e apreciam a beleza e a cultura."
+        },
+        {
+            "name": "Halfling",
+            "description": "Os halflings são uma raça pequena e alegre, conhecida por sua natureza afável e seu amor pela comida. Eles são geralmente amigáveis e extrovertidos, e estão sempre procurando uma boa festa."
+        },
+        {
+            "name": "Humano",
+            "description": "Os humanos são a raça mais comum em D&D, e são conhecidos por sua versatilidade e adaptabilidade. Eles são geralmente curiosos e ambiciosos, e estão sempre procurando novos desafios."
+        },
+        {
+            "name": "Dragonborn",
+            "description": "Os Dragonborn são uma raça reptiliana, conhecida por sua força, coragem e resistência ao fogo. Eles são geralmente orgulhosos e arrogantes, e estão sempre procurando provar seu valor."
+        },
+        {
+            "name": "Gnome",
+            "description": "Os gnomes são uma raça pequena e inteligente, conhecida por sua inventividade, curiosidade e amor pela magia. Eles são geralmente excêntricos e criativos, e estão sempre procurando novas maneiras de resolver problemas."
+        },
+        {
+            "name": "Half-Elf",
+            "description": "Os half-elves são uma raça híbrida, com um pai humano e uma mãe elfa. Eles são geralmente bonitos e talentosos, e são capazes de se adaptar a qualquer situação."
+        },
+        {
+            "name": "Half-Orc",
+            "description": "Os half-orcs são uma raça híbrida, com um pai humano e uma mãe orc. Eles são geralmente fortes e resistentes, e são capazes de enfrentar qualquer desafio."
+        },
+        {
+            "name": "Tiefling",
+            "description": "Os tieflings são uma raça demônio, conhecida por sua aparência diabólica e sua natureza ambígua. Eles são geralmente desconfiados e reservados, e estão sempre procurando seu lugar no mundo."
+        }
+    ]
+}
