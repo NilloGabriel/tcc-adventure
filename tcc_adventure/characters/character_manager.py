@@ -1,6 +1,7 @@
 import json
 import os
 from .character import Character
+from ..utils.data_loader import load_classes, load_races, load_abilities, load_equipment
 
 
 def create_character():
@@ -8,13 +9,10 @@ def create_character():
 
     name = input_name()
 
-    classes, races, abilities, equipment = load_data()
-
-    character_class = select_option(classes, "Classe")
-    race = select_option(races, "Raça")
-
-    equipment = select_equipment(character_class, race, equipment)
-    abilities = select_abilities(character_class, race, abilities)
+    character_class = select_option(load_classes(), "Classe")
+    race = select_option(load_races(), "Raça")
+    equipment = select_equipment(character_class, race)
+    abilities = select_abilities(character_class, race)
 
     return Character(name, character_class, race, equipment, abilities)
 
@@ -26,32 +24,6 @@ def input_name():
             return name
         else:
             print("O nome deve conter apenas letras. Tente novamente.")
-
-
-def load_data():
-    base_path = os.path.dirname(__file__)
-    classes_path = os.path.join(
-        base_path, "..", "database", "db_input", "classes.json")
-    races_path = os.path.join(
-        base_path, "..", "database", "db_input", "races.json")
-    abilities_path = os.path.join(
-        base_path, "..", "database", "db_input", "abilities.json")
-    equipment_path = os.path.join(
-        base_path, "..", "database", "db_input", "equipment.json")
-
-    with open(classes_path, "r") as file:
-        classes = json.load(file)["classes"]
-
-    with open(races_path, "r") as file:
-        races = json.load(file)["races"]
-
-    with open(abilities_path, "r") as file:
-        abilities = json.load(file)["abilities"]
-
-    with open(equipment_path, "r") as file:
-        equipment = json.load(file)["equipment"]
-
-    return classes, races, abilities, equipment
 
 
 def select_option(data, category):
@@ -68,9 +40,10 @@ def select_option(data, category):
         print("Opção inválida. Tente novamente.")
 
 
-def select_equipment(character_class, race, equipment_data):
-    equipment = equipment_data.get(
-        character_class["name"], {}).get(race["name"], {}).get("weapons", [])
+def select_equipment(character_class, race):
+    equipment_data = load_equipment()
+    equipment = equipment_data.get(character_class['name'], {}).get(
+        race['name'], {}).get("weapons", [])
 
     print("\nEquipamentos disponíveis:")
     for i, item in enumerate(equipment, start=1):
@@ -85,9 +58,10 @@ def select_equipment(character_class, race, equipment_data):
         print("Opção inválida. Tente novamente.")
 
 
-def select_abilities(character_class, race, abilities_data):
+def select_abilities(character_class, race):
+    abilities_data = load_abilities()
     abilities = abilities_data.get(
-        character_class["name"], {}).get(race["name"], [])
+        character_class['name'], {}).get(race['name'], [])
 
     print("\nHabilidades disponíveis:")
     for i, ability in enumerate(abilities, start=1):
