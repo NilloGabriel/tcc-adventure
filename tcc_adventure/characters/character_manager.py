@@ -30,10 +30,14 @@ def input_name():
 
 def load_data():
     base_path = os.path.dirname(__file__)
-    classes_path = os.path.join(base_path, "..", "data", "classes.json")
-    races_path = os.path.join(base_path, "..", "data", "races.json")
-    abilities_path = os.path.join(base_path, "..", "data", "abilities.json")
-    equipment_path = os.path.join(base_path, "..", "data", "equipment.json")
+    classes_path = os.path.join(
+        base_path, "..", "database", "db_input", "classes.json")
+    races_path = os.path.join(
+        base_path, "..", "database", "db_input", "races.json")
+    abilities_path = os.path.join(
+        base_path, "..", "database", "db_input", "abilities.json")
+    equipment_path = os.path.join(
+        base_path, "..", "database", "db_input", "equipment.json")
 
     with open(classes_path, "r") as file:
         classes = json.load(file)["classes"]
