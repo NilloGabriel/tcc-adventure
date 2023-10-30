@@ -1,14 +1,12 @@
-import json
-import os
 from .character import Character
 from ..utils.data_loader import load_classes, load_races, load_abilities, load_equipment
+from ..utils.input_validation import get_valid_alpha_input, get_valid_numeric_input
 
 
 def create_character():
     print("===== Cadastro Ficha de Personagem de RPG =====")
 
-    name = input_name()
-
+    name = get_valid_alpha_input("Nome: ")
     character_class = select_option(load_classes(), "Classe")
     race = select_option(load_races(), "Raça")
     equipment = select_equipment(character_class, race)
@@ -17,27 +15,12 @@ def create_character():
     return Character(name, character_class, race, equipment, abilities)
 
 
-def input_name():
-    while True:
-        name = input("Nome: ").strip()
-        if name.isalpha():
-            return name
-        else:
-            print("O nome deve conter apenas letras. Tente novamente.")
-
-
 def select_option(data, category):
     print(f"\nEscolha uma opção para {category}: ")
     for i, option in enumerate(data, start=1):
         print(f"{i}. {option['name']}")
 
-    while True:
-        choice = input("Opção: ")
-        if choice.isdigit():
-            choice = int(choice)
-            if 1 <= choice <= len(data):
-                return data[choice - 1]
-        print("Opção inválida. Tente novamente.")
+    return data[get_valid_numeric_input("Opção: ", data) - 1]
 
 
 def select_equipment(character_class, race):
@@ -49,13 +32,9 @@ def select_equipment(character_class, race):
     for i, item in enumerate(equipment, start=1):
         print(f"{i}. {item}")
 
-    while True:
-        choice = input("Opção: ")
-        if choice.isdigit():
-            choice = int(choice)
-            if 1 <= choice <= len(equipment):
-                return [equipment[choice - 1]]
-        print("Opção inválida. Tente novamente.")
+    selected_equipment = [
+        equipment[get_valid_numeric_input("Opção: ", equipment) - 1]]
+    return selected_equipment
 
 
 def select_abilities(character_class, race):
@@ -67,11 +46,6 @@ def select_abilities(character_class, race):
     for i, ability in enumerate(abilities, start=1):
         print(f"{i}. {ability}")
 
-    while True:
-        choice = input("Opção: ")
-        if choice.isdigit():
-            choice = int(choice)
-            if 1 <= choice <= len(abilities):
-                os.system('cls' if os.name == 'nt' else 'clear')
-                return [abilities[choice - 1]]
-        print("Opção inválida. Tente novamente.")
+    selected_abilities = [
+        abilities[get_valid_numeric_input("Opção: ", abilities) - 1]]
+    return selected_abilities
